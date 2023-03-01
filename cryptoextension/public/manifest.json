@@ -1,15 +1,15 @@
 {
-  "short_name": "Chrome Extension",
-  "name": "Chrome Extension Sample",
-  "version": "",
-  "icons": [
-    {
-      "src": "logo.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    }
-  ],
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "manifest_version": 3,
+  "name": "Nom de votre extension",
+  "version": "1.0",
+  "description": "Description de votre extension",
+  "icons": {
+    "16": "logo192.png"
+},
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ]
 }
