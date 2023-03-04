@@ -2,9 +2,9 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div>
-        <h1>Header</h1>
-    </div>
+    <header>
+      <a href="#home" className='logo'>CryptoExtension</a>
+    </header>
   );
 };
 
