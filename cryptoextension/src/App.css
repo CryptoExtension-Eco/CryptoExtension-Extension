@@ -7,7 +7,7 @@
 *{
   margin: 0;
   padding: 0;
-  color: var(--first-color);
+  color: var(--text);
   font-family: 'MonteCarlo', cursive, sans-serif;
 }
 
@@ -16,7 +16,7 @@ body{
   min-height: 600px;
   border: 2px solid red;
   /* background-color: var(--first-color); */
-  background-color: #232323;
+  background-color: #e6e6e6;
 }
 
 .tqt{
@@ -45,9 +45,12 @@ header .logo{
 }
 
 
-.text{
+.principal_title {
   position: relative;
-  top: 50px;
-  left: 15px;
+  width: 350px;
+  font-size: 1.1rem;
+  text-align: center;
+  top: 30px;
+  left: 25px;
 }
 
