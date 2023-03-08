@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Nom de votre extension",
+  "name": "CryptoExtension",
   "version": "1.0",
   "description": "Description de votre extension",
   "icons": {
