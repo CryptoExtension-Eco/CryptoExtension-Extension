@@ -1,13 +1,13 @@
 :root{
-  --first-color: #e6e6e6;
+  --first-color: #232323;
   --second-color: orange;
-  --text: #232323;
+  --text-color: #e6e6e6;
 }
 
 *{
   margin: 0;
   padding: 0;
-  color: var(--text);
+  color: var(--text-color);
   font-family: 'MonteCarlo', cursive, sans-serif;
 }
 
@@ -16,7 +16,7 @@ body{
   min-height: 600px;
   border: 2px solid red;
   /* background-color: var(--first-color); */
-  background-color: #e6e6e6;
+  background-color: var(--first-color);
 }
 
 .tqt{
@@ -30,6 +30,7 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
+  box-shadow: 0 3px 5px rgb(255, 0, 255);
   height: 65px;
   z-index: 10;
 }
@@ -54,3 +55,10 @@ header .logo{
   left: 25px;
 }
 
+.select-crypto{
+  background-color: var(--first-color);
+}
+
+.button-crypto{
+  background-color: var(--first-color);
+}
