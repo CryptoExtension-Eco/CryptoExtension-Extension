@@ -1,20 +1,20 @@
 :root{
   --first-color: #232323;
-  --second-color: orange;
+  --second-color: rgb(255, 166, 0);
   --text-color: #e6e6e6;
+  --button-color: #727272;
 }
 
 *{
   margin: 0;
   padding: 0;
   color: var(--text-color);
-  font-family: 'MonteCarlo', cursive, sans-serif;
-}
+  font-family: 'Space Mono', monospace;}
 
 body{
   width: 450px;
   min-height: 600px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* background-color: var(--first-color); */
   background-color: var(--first-color);
 }
@@ -29,8 +29,8 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
-  box-shadow: 0 3px 5px rgb(255, 0, 0);
+  background-color: var(--first-color);
+  box-shadow: 0 3px 5px rgb(61, 61, 61);
   height: 65px;
   z-index: 10;
 }
@@ -39,8 +39,8 @@ header .logo{
   position: relative;
   top: -2px;
   left: 15px;
-  font-size: 25px;
-  color: red;
+  font-size: 23px;
+  color: var(--second-color);
   text-decoration: none;
   font-weight: 600;
 }
@@ -55,10 +55,47 @@ header .logo{
   left: 25px;
 }
 
-.select-crypto{
+.select-crypto {
+  position: relative;
+  top: 35px;
+  font-size: 15px;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 19px;
   background-color: var(--first-color);
 }
 
+.select-option{
+  font-size: 20px;
+  text-align: center;
+  background-color: transparent;
+}
+
 .button-crypto{
-  background-color: var(--first-color);
+  position: relative;
+  top: 35px;
+  left: 10px;
+  border-radius: 19px;
+  background-color: var(--button-color);
+  border: none;
+  color: var(--text-color);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-crypto:active{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgb(95, 87, 87);
+}
+
+.crypto-result{
+  position: relative;
+  width: 350px;
+  font-size: 25px;
+  top: 75px;
 }
