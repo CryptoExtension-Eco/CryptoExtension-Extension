@@ -52,7 +52,7 @@ header .logo{
   font-size: 1.1rem;
   text-align: center;
   top: 30px;
-  left: 25px;
+  left: 45px;
 }
 
 .select-crypto {
@@ -98,4 +98,22 @@ header .logo{
   width: 350px;
   font-size: 25px;
   top: 75px;
+}
+
+
+.footer{
+  position: absolute;
+  bottom: 10px;
+  left: 15%;
+  transform: translateX(7%);
+  text-align: center;
+}
+
+.footer__title{
+  font-size: 25px;
+}
+
+.copy{
+  font-size: 15px;
+  margin-top: 10px;
 }

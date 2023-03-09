@@ -2,9 +2,10 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='tqt'>
-        <h1>Footer</h1>
-    </div>
+    <footer class="footer"> 
+    <p class="footer__title">CryptoExtension</p>
+    <p className='copy'>&#169; <span id="date"></span> copyright all right reserved</p>
+</footer>
   );
 };
 
