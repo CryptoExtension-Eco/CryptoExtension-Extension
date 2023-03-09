@@ -31,7 +31,7 @@ const Home = () => {
         </select>
 
         <button id="monBtn" className="button-crypto" onClick={handleButtonClick}>Track Price</button>
-        <p id="crypto-price" className="crypto-result">Le {crypto} est à {price} $</p>
+        {price && <p id="crypto-price" className="crypto-result">Le {crypto} est à {price} $</p>}
     </div>
   );
 };
