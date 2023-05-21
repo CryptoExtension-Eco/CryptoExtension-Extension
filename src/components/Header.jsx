@@ -1,10 +1,19 @@
 import React from 'react';
 
 const Header = () => {
+
+
   return (
+    <>
     <header>
-      <a href="#home" className='logo'>CryptoExtension</a>
+      <nav className="navbar">
+        <a href="#home" className="logo">CryptoExtension</a>
+        <ul>
+          <li><a href="wallet">Wallet</a></li>
+        </ul>
+      </nav>
     </header>
+    </>
   );
 };
 

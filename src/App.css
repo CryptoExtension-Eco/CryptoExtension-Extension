@@ -25,7 +25,7 @@ body{
 }
 
 /*==== HEADER ====*/
-header{
+.navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +35,7 @@ header{
   z-index: 10;
 }
 
-header .logo{
+.navbar .logo{
   position: relative;
   top: -2px;
   left: 15px;
@@ -43,6 +43,28 @@ header .logo{
   color: var(--second-color);
   text-decoration: none;
   font-weight: 600;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar li a {
+  color: var(--second-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.navbar li a:hover {
+  color: var(--text-color);
 }
 
 

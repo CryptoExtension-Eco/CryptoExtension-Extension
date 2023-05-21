@@ -16,23 +16,25 @@ const Home = () => {
     setPrice(price);
   }
   return (
-    <div className='principal_title'>
-      <h2>Choisissez la crypto ou devise de votre choix</h2>
-      <select id="crypto-select" className="select-crypto" value={crypto} onChange={handleCryptoChange}>
-          <option className='select-option' value="BTCUSDT">Bitcoin</option>
-          <option className='select-option' value="ETHUSDT">Ethereum</option>
-          <option className='select-option' value="XRPUSDT">Ripple</option>
-          <option className='select-option' value="BNBUSDT">Binance Coin</option>
-          <option className='select-option' value="ADAUSDT">Cardano</option>
-          <option className='select-option' value="DOTUSDT">Polkadot</option>
-          <option className='select-option' value="SOLUSDT">Solana</option>
-          <option className='select-option' value="UNIUSDT">UniSwap</option>
-          <option className='select-option' value="ALGOUSDT">Algo</option>
-        </select>
+    <>
+      <div className='principal_title'>
+        <h2>Choisissez la crypto ou devise de votre choix</h2>
+        <select id="crypto-select" className="select-crypto" value={crypto} onChange={handleCryptoChange}>
+            <option className='select-option' value="BTCUSDT">Bitcoin</option>
+            <option className='select-option' value="ETHUSDT">Ethereum</option>
+            <option className='select-option' value="XRPUSDT">Ripple</option>
+            <option className='select-option' value="BNBUSDT">Binance Coin</option>
+            <option className='select-option' value="ADAUSDT">Cardano</option>
+            <option className='select-option' value="DOTUSDT">Polkadot</option>
+            <option className='select-option' value="SOLUSDT">Solana</option>
+            <option className='select-option' value="UNIUSDT">UniSwap</option>
+            <option className='select-option' value="ALGOUSDT">Algo</option>
+          </select>
 
-        <button id="monBtn" className="button-crypto" onClick={handleButtonClick}>Track Price</button>
-        {price && <p id="crypto-price" className="crypto-result">Le {crypto} est à {price} $</p>}
-    </div>
+          <button id="monBtn" className="button-crypto" onClick={handleButtonClick}>Track Price</button>
+          {price && <p id="crypto-price" className="crypto-result">Le {crypto} est à {price} $</p>}
+      </div>
+    </>
   );
 };
 
