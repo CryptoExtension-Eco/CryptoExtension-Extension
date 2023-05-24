@@ -13,7 +13,7 @@
 
 body{
   width: 450px;
-  min-height: 700px;
+  min-height: 600px;
   /* border: 2px solid red; */
   /* background-color: var(--first-color); */
   background-color: var(--first-color);
@@ -125,7 +125,7 @@ body{
 
 .footer{
   position: absolute;
-  bottom: -200px;
+  bottom: 0px;
   left: 15%;
   transform: translateX(7%);
   text-align: center;

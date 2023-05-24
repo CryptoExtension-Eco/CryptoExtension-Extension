@@ -1,6 +1,6 @@
 import {Header, Home, Footer} from './components'
 import './App.css';
-import Wallet from './components/Wallet/Wallet'
+import Convert from './components/Wallet/convertDevise';
 function App() {
   return (
     <>
@@ -8,7 +8,7 @@ function App() {
         <Header/>
         <Home/>
         <Footer/>
-        <Wallet/>
+        <Convert/>
       </div>
     </>
   );

@@ -8,9 +8,9 @@ const Header = () => {
     <header>
       <nav className="navbar">
         <a href="#home" className="logo">CryptoExtension</a>
-        <ul>
+        {/* <ul>
           <li><a href="./Wallet/Wallet.jsx">Wallet</a></li>
-        </ul>
+        </ul> */}
       </nav>
     </header>
     </>
