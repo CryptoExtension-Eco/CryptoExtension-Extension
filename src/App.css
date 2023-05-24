@@ -125,7 +125,7 @@ body{
 
 .footer{
   position: absolute;
-  bottom: -115px;
+  bottom: -200px;
   left: 15%;
   transform: translateX(7%);
   text-align: center;
