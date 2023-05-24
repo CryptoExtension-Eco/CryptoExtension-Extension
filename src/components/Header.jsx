@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="navbar">
         <a href="#home" className="logo">CryptoExtension</a>
         <ul>
-          <li><a href="wallet">Wallet</a></li>
+          <li><a href="./Wallet/Wallet.jsx">Wallet</a></li>
         </ul>
       </nav>
     </header>
